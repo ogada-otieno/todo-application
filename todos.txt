@@ -1,0 +1,12 @@
+Todos application
+1. view all todos: GET
+2. view more details of each todo item: GET todos:id
+3. Update an existing todo: PUT/PATCH
+4. Delete an existing todo
+5. Create/add a new todo item
+
+Concepts:
+1. async...await
+2. DOM
+3. events
+4. working with a json server (todos.json) 

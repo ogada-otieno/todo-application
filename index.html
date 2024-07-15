@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" >
 </head>
 <body>
+    <h1>TODOS APP</h1>
+
+    <!-- form for creating new todo -->
+    <form id="create-form">
+        <label for="create-title">New todo</label>
+        <input type="text" id="create-title" name="create-title" placeholder="Going to space">
+        <button>Create</button>
+    </form>
+    <!-- form for updating existing tod -->
+    <form id="update-form">
+        <label for="update-title">Update Todo</label>
+        <input type="text" id="update-title" name="update-title" placeholder="Going to space">
+        <button>Update Todo</button>
+    </form>
     
+    <!-- for displaying all created todos -->
+    <section id="todos-section"></section>
+
+    <!-- for displaying additional details for each todo -->
+    <section id="single-todo-section"></section>
+
+    
+    <script src="./index.js"></script>
 </body>
 </html>
