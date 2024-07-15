@@ -5,8 +5,34 @@ Todos application
 4. Delete an existing todo
 5. Create/add a new todo item
 
+Deployment:
+
+
 Concepts:
 1. async...await
+
 2. DOM
-3. events
-4. working with a json server (todos.json) 
+--> Getting items already in the DOM
+--> injecting nodes/items into the DOM
+--> styling the DOM dynamically
+
+3. events 
+-----> addEventListener
+-----> DOMContentLoaded
+-----> submit
+-----> click
+-----> onsubmit 
+
+4. working with a json server (todos.json)
+--> installing json-server
+----> npm install -g json-server
+
+--> create your json file 
+----> e.g filename.json
+
+--> run your json-server
+----> json-server --watch filename.json
+----> json-server -w filename.json
+----> json-server filename.json
+----> json-server filename.json --port=7000
+
