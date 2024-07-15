@@ -29,6 +29,11 @@
       "title": "test",
       "id": "d42a",
       "completed": false
+    },
+    {
+      "id": "44f1",
+      "title": "dennis' method",
+      "completed": false
     }
   ]
 }
